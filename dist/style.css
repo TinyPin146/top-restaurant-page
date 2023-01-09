@@ -2,7 +2,7 @@
     width: 100vw;
     height: 100vh;
 
-    background: url(./patrick-tomasso-GXXYkSwndP4-unsplash.jpg);
+    background: url(./patrick-tomasso-GXXYkSwndP4-unsplash\(1\).jpg);
     background-size: cover;
 
     display: grid;
@@ -80,6 +80,7 @@ header h1 {
     font-family: monospace;
     font-size: 1rem;
     text-align: justify;
+    overflow: scroll;
 
     background: black;
     border: rgb(173, 173, 173) solid 2px;
