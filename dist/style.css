@@ -1,0 +1,109 @@
+#content {
+    width: 100vw;
+    height: 100vh;
+
+    background: url(./patrick-tomasso-GXXYkSwndP4-unsplash.jpg);
+    background-size: cover;
+
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+
+    color: white;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    background: black;/* background: linear-gradient(90deg, rgb(65, 37, 26) 0%, 7.74947%, rgb(157, 132, 112) 15.4989%, 49.2923%, rgb(112, 125, 118) 100%); */
+    border: rgb(173, 173, 173) solid 2px;
+    margin: 0 5px 1rem 5px;
+}
+header ul {
+    width: 40vw;
+    min-height: 75px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 7rem;
+}
+header button {
+    width: 9rem;
+    font-family: monospace;
+    font-size: 1.5rem;
+    color: #FAFAFA;
+    text-transform: uppercase;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: 2px solid #FAFAFA;
+    background: #252525;
+    box-shadow: 3px 3px #fafafa;
+    cursor: pointer;
+}
+header button:active {
+    box-shadow: none;
+    transform: translate(3px, 3px);
+  }
+
+header h1 {
+    font-family: monospace;
+    font-size: 2rem;
+    text-align: center;
+
+    margin: 1rem;
+
+    -webkit-text-stroke: 2px white;
+    text-shadow: 5px 2px #64251a;
+    animation: text-stroke-animation 3s linear infinite;
+}
+.main-inner {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    align-items: center;
+    justify-items: center;
+    gap: 10px;
+
+}
+.main-inner .card {
+    width: 45vw;
+    height: 35vh;
+
+    padding: 20px 40px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: monospace;
+    font-size: 1rem;
+    text-align: justify;
+
+    background: black;
+    border: rgb(173, 173, 173) solid 2px;
+}
+
+footer {
+    background: black;
+    border: rgb(173, 173, 173) solid 2px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    font-family: monospace;
+    font-size: .6rem;
+}
+
+@keyframes text-stroke-animation {
+    0% {
+      -webkit-text-stroke: 2px white;
+    }
+    50% {
+        -webkit-text-stroke: 4px white;
+    }
+    100% {
+        -webkit-text-stroke: 2px white;
+    }
+  } 
