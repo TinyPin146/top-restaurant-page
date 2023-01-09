@@ -11,7 +11,7 @@ export const homePageElements = {
         </nav>
     </header>
     `,
-    homeMain: `
+    main: `
     <main>
             <div class="main-inner">
                 <div class="main--intro card">

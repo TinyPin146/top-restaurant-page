@@ -1,4 +1,4 @@
-export const menuPageElements = {
+export const contactPageElements = {
     header: `
     <header>
         <h1>Morning Mash-Up brunch restaurant</h1>
@@ -14,9 +14,8 @@ export const menuPageElements = {
     main: `
     <main>
             <div class="main-inner">
-                <div class="menu card">
-                    <p>testMenu
-                    </p>
+                <div class="contact card">
+                    <p>contactTest</p>
                 </div>
             </div>
     </main>
