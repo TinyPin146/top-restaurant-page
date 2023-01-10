@@ -16,13 +16,13 @@ export const homePageElements = {
             <div class="main-inner">
                 <div class="main--intro card">
                     <h2>Introduction</h2>
-                    <p>Welcome to Morning Mash-Up, the best brunch spot in town! We're excited to have you join us for a delicious and satisfying meal that will start your day off right.
-                        Our menu is packed with all of your favorite breakfast and lunch dishes, including fluffy omelets, savory breakfast sandwiches, and creamy eggs benedict. And of course, no brunch is complete without a steaming cup of coffee or a refreshing mimosa.
-                
-                        But we're not just about the food at Morning Mash-Up. We also pride ourselves on creating a warm and welcoming atmosphere where you can relax and enjoy your meal. Our friendly staff is always ready to greet you with a smile and make sure you have everything you need.
-                
-                        So why wait? Come on in to Morning Mash-Up and join us for the best brunch in town! We can't wait to see you.
-                    </p>
+                    <div class="p-container">
+                        <p>Welcome to Morning Mash-Up, the best brunch spot in town! We're excited to have you join us for a delicious and satisfying meal that will start your day off right.
+                            Our menu is packed with all of your favorite breakfast and lunch dishes, including fluffy omelets, savory breakfast sandwiches, and creamy eggs benedict. And of course, no brunch is complete without a steaming cup of coffee or a refreshing mimosa.
+                            But we're not just about the food at Morning Mash-Up. We also pride ourselves on creating a warm and welcoming atmosphere where you can relax and enjoy your meal. Our friendly staff is always ready to greet you with a smile and make sure you have everything you need.
+                            So why wait? Come on in to Morning Mash-Up and join us for the best brunch in town! We can't wait to see you.
+                        </p>
+                    </div>
                 </div>
                 <div class="main--open-hours card">
                     <h2>Open hours</h2>
