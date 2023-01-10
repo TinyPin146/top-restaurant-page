@@ -44,8 +44,8 @@ header button {
     cursor: pointer;
 }
 header button:hover {
-    box-shadow: 3px 3px #64251a;
-    border: 2px solid #64251a;
+    box-shadow: 3px 3px #e7bb6c;
+    border: 2px solid #e7bb6c;
 }
 header button:active {
     box-shadow: none;
@@ -63,21 +63,24 @@ header h1 {
     text-shadow: 5px 2px #64251a;
     animation: text-stroke-animation 3s linear infinite;
 }
+
+main {
+    margin: 0 0 10px 0;
+    
+}
 .main-inner {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: repeat(auto-fill, minmax(100px, 1fr));
     align-items: center;
     justify-items: center;
-    gap: 10px;
-
+    gap: 20px;
 }
 .card {
-    width: 45vw;
+    width: 50vw;
     height: 40vh;
 
     padding: 20px 40px;
-    margin: 5px;
 
     display: flex;
     justify-content: center;
@@ -142,6 +145,26 @@ footer {
 
     font-family: monospace;
     font-size: .6rem;
+}
+
+.address img {
+    width: 250px;
+}
+.owner-intro {
+    width: 98%;
+    grid-column: span 2;
+}
+.owner-intro img {
+    width: 350px;
+}
+
+ul {
+    line-height: 30px;
+
+}
+
+strong {
+    font-weight: bold;
 }
 
 @keyframes text-stroke-animation {
