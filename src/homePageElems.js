@@ -15,6 +15,7 @@ export const homePageElements = {
     <main>
             <div class="main-inner">
                 <div class="main--intro card">
+                    <h2>Introduction</h2>
                     <p>Welcome to Morning Mash-Up, the best brunch spot in town! We're excited to have you join us for a delicious and satisfying meal that will start your day off right.
                         Our menu is packed with all of your favorite breakfast and lunch dishes, including fluffy omelets, savory breakfast sandwiches, and creamy eggs benedict. And of course, no brunch is complete without a steaming cup of coffee or a refreshing mimosa.
                 
@@ -24,6 +25,7 @@ export const homePageElements = {
                     </p>
                 </div>
                 <div class="main--open-hours card">
+                    <h2>Open hours</h2>
                     <ul>
                         <li>Monday: 7 AM - 17 PM</li>
                         <li>Tuesday: 7 AM - 17 PM</li>

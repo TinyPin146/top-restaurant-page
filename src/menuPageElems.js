@@ -14,9 +14,11 @@ export const menuPageElements = {
     main: `
     <main>
             <div class="main-inner">
-                <div class="menu card">
-                    <p>testMenu
-                    </p>
+                <div class="menu-item card">
+                    <h2>Cappuccino</h2>
+                    <p>A classic Italian coffee drink made with equal parts espresso, steamed milk, and foam. Perfectly balanced and topped with a sprinkle of cocoa powder for a touch of sweetness.</p>
+                    <h3 class="price">2 EUR</h3>
+                    <img src="./../dist/anubhav-arora-RFLDagtOsMM-unsplash.jpg" alt="A cup of cappuccino" height="75" width="75">
                 </div>
             </div>
     </main>
